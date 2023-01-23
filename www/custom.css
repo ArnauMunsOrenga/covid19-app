@@ -1,0 +1,231 @@
+
+/*---*/
+
+/* White and blue theme */
+/* Author: Ignasi Pascual Vilaseca */
+/* Date: 14/09/2019 */
+
+/* header title font */
+.main-header .logo {
+font-family: "Georgia", Times, "Times New Roman", serif;
+font-weight: bold;
+font-size: 16px;
+}
+
+
+/* background color of header (logo part) */
+.skin-green .main-header .logo {
+background-color: #006400;
+color: #fff;
+border-bottom: 0 solid transparent;
+}
+        
+        
+/* change the background color of header (logo part) when mouse hover */
+.skin-blue .main-header .logo:hover {
+background-color: #006400;
+}
+        
+/* background color for remaining part of the header */
+.skin-blue .main-header .navbar {
+background-color:#006400;
+} 
+                              
+/* main sidebar */
+.skin-blue .main-sidebar {
+background-color: #3CB371;
+}
+
+/* sidebar menuitems */
+.skin-blue .main-sidebar .sidebar .sidebar-menu {
+  padding-top: 5px;
+  /*this makes de sidebar menu to follow the website scrolldown*/
+  position: fixed;
+  overflow: visible;
+}
+
+.sidebar-menu > li {
+    white-space: normal;
+    padding-top: 15px;
+}
+
+/* active sidebar menu item */
+.skin-blue .main-sidebar .sidebar .sidebar-menu .active a{
+background-color: ##006400;
+color: #fff;
+-webkit-border-radius: 40px;
+-moz-border-radius: 40px;
+font-weight: bold;
+border-radius: 25px;
+padding-left: 20px;
+width: 220px;
+}
+
+/* active selected tab in the sidebarmenu */
+.skin-blue .sidebar-menu > li.active > a,
+.skin-blue .sidebar-menu > li:hover > a {
+  border-left-color: #3CB371;
+}
+
+/* sidebar menuitems */
+.skin-blue .main-sidebar .sidebar .sidebar-menu a{
+background-color: #3CB371;
+color: #000;
+-webkit-border-radius: 25px;
+-moz-border-radius: 25px;
+border-radius: 25px;
+padding-left: 20px;
+width: 220px;
+}
+
+/* sidebar menuitems when mouse hover */
+.skin-blue .main-sidebar .sidebar .sidebar-menu a:hover{
+background-color: #006400;
+border-bottom-color:#006400;
+border-left-color:#3CB371;
+border-right-color:#006400;
+border-top-color:#006400;
+color: #fff;
+font-weight: bold;
+transition: all ease-in 0.5s;
+}
+                              
+/* sidebar toggle button */           
+.skin-blue .main-header .navbar .sidebar-toggle:hover{
+background-color: #3CB371;
+color:#fff;
+}
+
+.info-box-content {
+	display: block; 
+	text-align: center; 
+	padding-top: 0px; 
+	padding-bottom: 0px; 
+	margin-left: 0px;
+	font-size: 10px;
+}
+
+.info-box {
+	min-height: 45px;
+	background:#222d32;
+	color:#eff4f8;
+} 
+
+
+.info-box-icon {display:none; height: 0px; line-height: 0px;} 
+
+.info-box-content .info-box-text {
+font-size:11px;
+}
+
+/*Box color*/
+.box.box-solid.box-primary>.box-header {
+  color:#fff;
+  background:##006400
+}
+
+.info-box-content .info-box-number{
+font-size:12px;
+}
+
+h6 {
+    border-bottom: 1px solid #ccc; /* This is the line replacing the hr*/
+    margin-bottom: 10px; /* This is the space below the line */
+    padding-bottom: 3px; /* This is the space between the heading text and the line */
+}
+
+.box.box-solid.box-primary>.box-header>.box-title {
+  
+font-family: "Calibri Light";
+font-size: 12px;
+font-weight: bold;
+text-align: center;
+}
+					
+/*outer line and box font styling*/
+.box.box-solid.box-primary{
+                    border-bottom-color:#222d32;
+                    border-left-color:#222d32;
+                    border-right-color:#222d32;
+                    border-top-color:#222d32;
+                    /*background:#222d32;*/
+		    /*color:#eff4f8;*/
+		    font-family: "Calibri Light";
+		    font-size: 12px;	
+		    text-align: center;
+                    }
+					
+/*progression bar*/
+.shiny-notification {
+	position: fixed;
+	top: 90% ; 
+	left:1%; 
+	height: 50px; 
+	width: 225px;
+		    border-bottom-color:#b3cbdd;
+                    border-left-color:#b3cbdd;
+                    border-right-color:#b3cbdd;
+                    border-top-color:#b3cbdd;
+	background:#eff4f8;
+	font-family: "Calibri Light";
+	color:#141e25;
+	font-size: 14px;
+	text-align: center;
+	
+}
+
+.progress-bar {
+	background-color: #6897BB;
+}
+
+/*Menu of the dropdown menu box in the dashboard header*/
+.navbar-nav > .messages-menu > .dropdown-menu, .navbar-nav > .notifications-menu > .dropdown-menu, .navbar-nav > .tasks-menu > .dropdown-menu {
+    width: 500px;
+    /*padding: 0;*/
+    /*margin: 10px;*/
+    /*top: 100%;*/
+    /*background-color: #fefefee6;*/
+    /*box-shadow: 10px 10px 10px darkgrey;*/
+}
+
+.navbar-nav > .messages-menu > .dropdown-menu > li .menu, .navbar-nav > .notifications-menu > .dropdown-menu > li .menu, .navbar-nav > .tasks-menu > .dropdown-menu > li .menu {
+    max-height: 1200px;
+    width: 500px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow-x: hidden;
+}
+
+/*JUMBOTRON*/
+.jumbotron {
+    background-color:#fff !important; /*transparent*/
+    color: #000;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+/*JUMBOTRON BUTTON*/
+.btn.btn-primary.btn-rounded.btn-lg {
+  background-color: ##006400;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+
+.snapshot_butt {
+  position: fixed;
+  bottom: 50px;
+  left: 70px;
+	font-family: "Source Sans Pro", "Arial", sans-serif;
+	font-size: 30px;
+	color:white;
+	border:none;
+	border-radius:30px;
+	background-color:##006400;
+	width: 53px;
+	height: 53px;
+	z-index: 100;
+	transition: ease-in-out .5s;
+}
